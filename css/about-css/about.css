@@ -1,6 +1,8 @@
 .container{
     text-align: center;
     background-color: rgb(221, 218, 218);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
 .jumbotron{
     background-image: url("../img-about/black-white.png");
