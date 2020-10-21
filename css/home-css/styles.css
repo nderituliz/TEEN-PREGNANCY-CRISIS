@@ -1,0 +1,123 @@
+body{
+    background-color: lightgrey;
+    color: black;
+}
+h1{
+  color:lightgray;
+}
+.container1{
+    float:left;
+    width: 50%;
+    height: 50;
+}
+.container{
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 50%;
+  
+    font-size: medium;
+  }
+.title{
+  background-color: purple;
+  color: lightgrey;
+    height: 700px;
+    width:100%;
+  }  
+#slideshow1{
+    position:relative;
+    height:765px;
+    width:1020px;
+    float:right;
+  }
+  #slideshow1 img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:450px;
+    z-index:8;
+    opacity: 0.0;
+  }
+  #slideshow1 img.active{
+    z-index:10;
+    opacity: 1.0;
+  }
+  #slideshow1 img.last-active{
+    z-index:9;
+    opacity: 0.0;
+}
+.container2{
+    text-align:center;
+    width: 120%;
+    height: 40%;
+    float: left;
+    padding-top:-20%;
+    
+    
+  }
+h2,h3,h4{
+  color: purple;
+}
+ul.scrollmenu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  div.scrollmenu {
+    background-color: purple;
+
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu li {
+    display: inline-block;
+  }
+  
+  div.scrollmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: underline;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+  ul>li>ul.scrollmenu {
+    display: none;
+  }
+  
+  ul>li:hover>ul.scrollmenu {
+    background-color: #333;
+    position: absolute;
+    display: block;
+  }
+#sexualorientation,#periods,#sex,#pregnancy,#contraceptives{
+    display: none;
+    text-align: center;
+    float: center;
+    background-color: lightgray;
+    color: black;
+    width:400%;
+}
+.img.container2{
+  width: 50%;
+  height: 50%;
+}
+#sexualorientation-image,#periods-image,#sex-image,#pregnancy-image,#contraceptives-image{
+  
+  text-align: center;
+  float: center;
+  background-color: lightgrey;
+  color: purple;
+
+}
+.container h2{
+  color:whitesmoke;
+  font-size: x-large;
+}
