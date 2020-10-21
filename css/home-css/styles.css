@@ -2,33 +2,96 @@ body{
     background-color: lightgrey;
     color: black;
 }
+/* Nav Section */
+/* Navbar section */
+
+.nav {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  line-height: 65px;
+  text-align: center;
+}
+
+.nav div.logo {
+  float: left;
+  width: auto;
+  height: auto;
+  padding-left: 3rem;
+}
+
+.nav div.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+  color: #00E676;
+}
+
+.nav div.main_list {
+  height: 65px;
+  float: right;
+}
+
+.nav div.main_list ul {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav div.main_list ul li {
+  width: auto;
+  height: 65px;
+  padding: 0;
+  padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 65px;
+  font-size: 1.0rem;
+}
+
+.nav div.main_list ul li a:hover {
+  color: #00E676;
+}
+
+/* End Nav Section */
 h1{
   color:lightgray;
 }
 .container1{
-    float:left;
-    width: 50%;
-    height: 50;
+    /* float:left; */
+    width: 100%;
+    height: auto;
+    margin-right: 100px;
 }
-.container{
+/* .container{
     text-align: center;
     float: right;
     width: 50%;
     height: 50%;
   
     font-size: medium;
-  }
+  } */
 .title{
-  background-color: purple;
-  color: lightgrey;
+  background-color:rgb(221, 218, 218);
+  color: black;
     height: 700px;
     width:100%;
   }  
 #slideshow1{
     position:relative;
-    height:765px;
+    height:auto;
     width:1020px;
     float:right;
+    
   }
   #slideshow1 img{
     position:absolute;
@@ -36,23 +99,23 @@ h1{
     left:0;
     width:300px;
     height:450px;
-    z-index:8;
+   
     opacity: 0.0;
   }
   #slideshow1 img.active{
-    z-index:10;
+    
     opacity: 1.0;
   }
   #slideshow1 img.last-active{
-    z-index:9;
+   
     opacity: 0.0;
 }
 .container2{
     text-align:center;
-    width: 120%;
+    width: 100%;
     height: 40%;
     float: left;
-    padding-top:-20%;
+    padding-top: 10%;
     
     
   }
@@ -106,8 +169,8 @@ ul.scrollmenu {
     width:400%;
 }
 .img.container2{
-  width: 50%;
-  height: 50%;
+  width: 250px;
+  height: 350px;
 }
 #sexualorientation-image,#periods-image,#sex-image,#pregnancy-image,#contraceptives-image{
   
@@ -120,4 +183,12 @@ ul.scrollmenu {
 .container h2{
   color:whitesmoke;
   font-size: x-large;
+}
+
+.banner-wrapper{
+  padding: 0;
+}
+
+.teen-wrapper{
+  margin-top: 480px;
 }

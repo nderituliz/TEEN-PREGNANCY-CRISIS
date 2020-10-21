@@ -4,14 +4,7 @@ body,html{
     height: 100%;
 }
 
-/* .bg-img{
-background-image: url("../images/blog-img/bgimg.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-filter: blur(8px);
-background-position: center;
-height: 100%;
- */
+
 
 
 .container{
@@ -39,3 +32,42 @@ p{
 h2{
     font-size: 14px;
 }
+
+ul.scrollmenu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  div.scrollmenu {
+    background-color: purple;
+
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu li {
+    display: inline-block;
+  }
+  
+  div.scrollmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: underline;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+  ul>li>ul.scrollmenu {
+    display: none;
+  }
+  
+  ul>li:hover>ul.scrollmenu {
+    background-color: #333;
+    position: absolute;
+    display: block;
+  }
