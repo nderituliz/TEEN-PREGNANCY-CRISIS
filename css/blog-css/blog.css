@@ -1,0 +1,41 @@
+/* STYLES FOR THE BLOG SECTION. */
+
+body,html{
+    height: 100%;
+}
+
+/* .bg-img{
+background-image: url("../images/blog-img/bgimg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+filter: blur(8px);
+background-position: center;
+height: 100%;
+ */
+
+
+.container{
+    
+    z-index: 2;
+
+}
+.image-container img{
+    width:auto;
+    height: 500px;
+    z-index: 2;
+}
+
+
+
+h1,h2,h3,p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2,h3{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    font-size: 14px;
+}
