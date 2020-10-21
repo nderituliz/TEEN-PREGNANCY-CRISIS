@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1544991875-5dc1b05f607d?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    height: 91vh;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  }
+  ul.scrollmenu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  div.scrollmenu {
+    background-color: purple;
+
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu li {
+    display: inline-block;
+  }
+  
+  div.scrollmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: underline;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+  ul>li>ul.scrollmenu {
+    display: none;
+  }
+  
+  ul>li:hover>ul.scrollmenu {
+    background-color: #333;
+    position: absolute;
+    display: block;
+  }

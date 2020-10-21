@@ -1,0 +1,73 @@
+/* STYLES FOR THE BLOG SECTION. */
+
+body,html{
+    height: 100%;
+}
+
+
+
+
+.container{
+    
+    z-index: 2;
+
+}
+.image-container img{
+    width:auto;
+    height: 500px;
+    z-index: 2;
+}
+
+
+
+h1,h2,h3,p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2,h3{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    font-size: 14px;
+}
+
+ul.scrollmenu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  div.scrollmenu {
+    background-color: purple;
+
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu li {
+    display: inline-block;
+  }
+  
+  div.scrollmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: underline;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+  ul>li>ul.scrollmenu {
+    display: none;
+  }
+  
+  ul>li:hover>ul.scrollmenu {
+    background-color: #333;
+    position: absolute;
+    display: block;
+  }
