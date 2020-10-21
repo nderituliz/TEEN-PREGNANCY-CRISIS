@@ -3,6 +3,8 @@ body{
     height: 91vh;
     background-size: cover;
     background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   }
   ul.scrollmenu {
     list-style-type: none;
